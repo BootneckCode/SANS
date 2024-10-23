@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+typedef struct {
+    char *name;
+    int age;
+} User;
+
+int main()
+{
+    User account_1;
+    account_1.name = "John Smith";
+    account_1.age = 54;
+
+    printf("Account 1, %s is %d years old\n", account_1.name, account_1.age);
+
+    return 0;
+}
